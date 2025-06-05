@@ -1,0 +1,93 @@
+
+/* Estilo general */
+#interior {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    max-width: 100%;
+}
+
+#superior {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.efectos {
+    box-shadow: 3px 3px 3px #756b6b;
+    border-radius: 15px;
+}
+
+/* Estilo para imágenes centradas y que se adapten */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegura que todo el texto se vea bien en pantallas pequeñas */
+.text-justify, .text-center {
+    word-wrap: break-word;
+}
+
+/* Ajuste del menú para pantallas pequeñas */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 5px 10px;
+}
+
+/*afuera de media*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Opcionalmente puedes recortar espacio innecesario abajo */
+section.bg-white {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Media queries: reglas especiales para tamaños pequeños */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .row {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .span5, .span7 {
+        width: 100% !important;
+        display: block;
+    }
+
+    .padding20 {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+}

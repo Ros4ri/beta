@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+      <head>
+        <title>Sitio Web HTML5</title>
+        <meta charset="UTF-8">        
+
+        <link rel="stylesheet" href="css/metro-bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script type="text/javascript" src="jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery/jquery.widget.min.js"></script>
+        <script type="text/javascript" src="metro/metro-dropdown.js"></script>
+    
+  </head>
+    <body class="metro">
+     <!--Colocar a partir de aquí el contenido de tu práctica -->
+        <div class="grid bg-grayLighter no-margin">  
+               <div class="container efectos">
+                      <header class="row no-margin" style="background-color: #800000;">
+               <img class="place-left margin20" src="img/watermelon.jpeg" alt="Home" height="50" width="80">
+               <h1 class="titulo" style="color: white;">LENGUA DE SEÑAS</h1>
+		      </header>
+                     <nav class="row horizontal-menu no-margin" style="background-color: #2F4F4F;">
+                        <ul class="fg-white text-bold text-center">
+                        <li><a href="inicio.html">INICIO</a></li>
+                        <li><a href="historia.html">HISTORIA</a></li> 
+                        <li><a href="lenguas.html">LENGUAS</a></li>
+                        <li><a href="coda.html">CODA</a></li>
+                        <li><a href="relatos.html">RELATOS</a></li>
+                        <li><a href="abecedario.html">ABECEDARIO</a></li> 
+                        </ul>
+                     </nav>
+
+                      <section class="bg-white no-margin"> 
+                            <article>
+                              <div class="padding20">
+               <h2 class="text-center"><strong>¿LENGUAJE O LENGUA DE SEÑAS?</strong></h2>
+                  
+                      <p class="text-justify">
+                      Aunque muchas personas dicen "lenguaje de señas",el termino correcto es lengua de señas. Esto se debe a que una lengua es un sistema completo de comunicacion con su propia gramatica, vocabulario y reglas, como el español o el ingles. Las lenguas de señas tambien tienen todas esas caracteristicas, por eso se consideran lenguas.
+                      
+                      Por otro lado, el lenguaje es un concepto mas general que se refiere a cualquier forma de comunicacion, como el lenguaje corporal, el lenguaje visual o el lenguaje musical, pero no necesariamente tiene una estructuta como una lengua.
+
+Entonces, lo correcto es decir <strong>"LENGUA DE SEÑAS MEXICANA(LSM)"</strong>, no "lenguaje de señas". 
+ </p>
+</div>
+  </article>
+  
+                         <article class="row">
+                           <div class="span5 padding20">
+                           <h2 class="text-center"><strong>¿QUE ES?</strong></h2>
+                           <p class="text-justify">
+       La lengua de señas es una forma de comunicación que usan principalmente las personas sordas. En lugar de hablar con sonidos, se comunican con las manos, los gestos, las expresiones de la cara y el movimiento del cuerpo. Así pueden expresar ideas, sentimientos, contar historias, hacer preguntas y mucho más.<br>
+<br> 
+Muchas personas piensan que la lengua de señas es igual en todo el mundo, pero no es así. Cada país tiene su propia lengua de señas. Por ejemplo, en México se usa la Lengua de Señas Mexicana (LSM), mientras que en Estados Unidos se usa otra diferente llamada American Sign Language (ASL). Incluso dentro de un mismo país pueden haber diferencias según la región.<br>
+<br>
+<img src="img/dia_mexicano.jpeg" width="200" height="150" style="display: block; margin: auto;">
+ </p>
+ </div>
+                           <div class="span7 padding20">
+                            <h2 class="text-center"><strong>DIVERSAS LENGUAS</strong></h2>
+                            <p class="text-justify">
+                              La lengua de señas no es solo una colección de gestos; es una lengua completa, con su propia gramática, reglas y formas de decir las cosas. No es una traducción del español ni una forma más sencilla de hablar: es una lengua diferente.<br>
+                              <br>
+                              Además, no solo las personas sordas la pueden usar. Muchas personas oyentes también la aprenden para comunicarse mejor con sus familiares, amigos o compañeros de escuela o trabajo que son sordos. Aprender lengua de señas ayuda a hacer una sociedad más inclusiva y con igualdad para todos.<br>
+                              <br>
+                              <img src="img/correcto2.jpeg" width="300" height="150" style="display: block; margin: auto;">
+                              </p>
+                      </div>
+                      </article>
+                       <footer class="row bg-grayLight no-margin">
+                        <div style="text-align: right;">
+                          <a href="https://www.instagram.com/manosqhablan?igsh=YWpzMGlpZjZ3Y2th" style="text-decoration: none; color: black; margin-right: 15px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="20" height="20" alt="Instagram" style="vertical-align: middle;">
+                            manosqhablan?
+                          </a>
+                        
+                          <a href="https://www.facebook.com/groups/1819542284849727/?ref=share&mibextid=NSMWBT" style="text-decoration: none; color: black;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="20" height="20" alt="Facebook" style="vertical-align: middle;">
+                            Aprendiendo LSM
+                          </a>
+                        </div>
+                       </footer>
+                   </section>
+                </div>
+           </div>
+     <!--Aquí termina la zona para colocar el contenido de tu práctica-->
+ <!-- Live2D Widget con Z16 y mensaje de bienvenida -->
+<script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+<script>
+  // Inicializa el modelo Z16
+  L2Dwidget.init({
+    model: {
+      jsonPath: "https://unpkg.com/live2d-widget-model-izumi@1.0.5/assets/izumi.model.json",
+    },
+    display: {
+      position: "right",
+      width: 180,
+      height: 320,
+      hOffset: 10,
+      vOffset: 80,
+    },
+    mobile: {
+      show: true,
+      scale: 0.5,
+    },
+    react: {
+      opacityDefault: 0.8,
+      opacityOnHover: 0.2,
+    },
+  });
+
+  // Mostrar mensaje de bienvenida
+  window.addEventListener('load', function() {
+    const message = document.createElement("div");
+    message.textContent = "¡Hola! Bienvenido a mi página.";
+    message.style.position = "fixed";
+    message.style.bottom = "320px";
+    message.style.right = "20px";
+    message.style.padding = "10px 15px";
+    message.style.background = "#fff";
+    message.style.border = "2px solid #444";
+    message.style.borderRadius = "10px";
+    message.style.boxShadow = "0 0 10px rgba(0,0,0,0.3)";
+    message.style.fontFamily = "sans-serif";
+    message.style.zIndex = "9999";
+    message.style.transition = "opacity 1s";
+    document.body.appendChild(message);
+
+    setTimeout(() => {
+      message.style.opacity = "0";
+      setTimeout(() => message.remove(), 1000);
+    }, 4000); // El mensaje dura 4 segundos
+  });
+</script>           
+    </body>
+</html>

@@ -42,6 +42,24 @@ nav ul li {
     margin: 5px 10px;
 }
 
+/*afuera de media*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Opcionalmente puedes recortar espacio innecesario abajo */
+section.bg-white {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 /* Media queries: reglas especiales para tamaños pequeños */
 @media (max-width: 768px) {
     header h1 {
@@ -71,14 +89,5 @@ nav ul li {
     nav ul li {
         width: 100%;
         text-align: center;
-    }
-    body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-    }
-
-    html, body {
-  height: 100%;
     }
 }
